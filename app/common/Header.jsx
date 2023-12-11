@@ -29,7 +29,7 @@ const Header = () => {
       </div>
       {/* navbar */}
       <div className="lg:flex gap-[60px] md:hidden hidden">
-        <nav className="flex gap-[80px] text-base items-center justify-center">
+        <nav className="flex gap-[60px] text-base items-center justify-center">
           <Link className="font-bold" href="/">
             Courses
           </Link>
