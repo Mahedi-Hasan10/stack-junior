@@ -3,7 +3,7 @@ import Image from "next/image"
 const Hero = () => {
     const searchIcon = <IoSearch/>
     return (
-        <div className="bg-[#0063A4] relative flex flex-wrap lg:pt-[150px] pt-[40px]  lg:px-[86px] px-[50px] lg:pb-0 pb-10">
+        <div className="bg-[#0063A4] relative flex flex-wrap  pt-[40px]  lg:px-[86px] px-[50px] lg:pb-0 pb-10">
             <div className=" flex flex-col order-1 gap-3 py-10 z-10 max-w-[506px]">
                 <h2 className="text-white lg:text-[64px] ml-5 lg:font-bold md:text-[50px] md:font-semibold text-[40px] font-medium ">Learn on your schedule</h2>
             <div className="flex gap-3 justify-center max-w-[80%] mx-auto pb-[50px]">

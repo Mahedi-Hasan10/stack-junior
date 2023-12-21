@@ -1,10 +1,10 @@
 import React from 'react';
-
+import TopPartCourse from '../components/courses/topPartCourse'
 const Page = () => {
     return (
-        <div>
-            courses
-        </div>
+        <section>
+            <TopPartCourse/>
+        </section>
     );
 };
 

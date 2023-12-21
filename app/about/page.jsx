@@ -1,10 +1,13 @@
 import React from 'react';
+import AboutHero from '../components/AboutStackJunior/AboutHero';
+import AboutFeaure from '../components/AboutStackJunior/AboutFeaure';
 
 const Page = () => {
     return (
-        <div>
-            about page
-        </div>
+        <section className=''>
+            <AboutHero/>
+            <AboutFeaure/>
+        </section>
     );
 };
 
